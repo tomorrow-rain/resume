@@ -1,0 +1,121 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+% \usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+\usepackage{setspace}%使用间距宏包
+
+\begin{document}
+\begin{spacing}{1.2}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{袁明禹}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{(+86) 15602005531}{532442030@qq.com}{GitHub @tomorrow-rain}{}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+
+\vspace{0.2em}
+% \section{\faGraduationCap\ 教育背景}
+\section{教育背景}
+\datedsubsection{\textbf{北京邮电大学},计算机科学与技术,\textit{在读硕士研究生}}{2021.9 - 2024.6}
+\ 学业奖学金(1次)
+\datedsubsection{\textbf{河北工业大学},计算机科学与技术,\textit{工学学士}}{2017.9 - 2021.6}
+\ \textbf{排名2/104(前2\%)}，GPA 3.9/4.0
+
+\vspace{0.2em}
+
+% \begin{onehalfspacing}
+% \section{教育背景}
+% \datedsubsection{\textbf{北京邮电大学},计算机科学与技术,\textit{在读硕士研究生}}{2021.9 - 2024.6}
+% \ 学业奖学金(1次)
+% \datedsubsection{\textbf{河北工业大学},计算机科学与技术,\textit{工学学士}}{2017.9 - 2021.6}
+% \ \textbf{排名2/104(前2\%)}，GPA 3.9/4.0
+% \end{onehalfspacing}
+
+\section{实习经历}
+
+\datedsubsection{\textbf{欧普拉软件技术(北京)有限公司 | Opera News}, 前端开发工程师}{2022.7-2022.9}
+\begin{itemize}[parsep=0.8ex]
+  \item 网站https://www.degenknows.io/ 编写Vue3页面组件，实现提示弹窗、信息卡片、图片裁剪等功能.
+  \item 基于开源插件Automa，开发crypto-plugin chrome插件,实现辅助用户登录、NFT项目批量注册、开奖信息查询等功能.
+\end{itemize}
+
+\vspace{0.2em}
+\section{项目经历}
+
+\datedsubsection{\textbf{I学生AT河工-微信小程序}}{2020.3-2020.5}
+\begin{itemize}
+  \item 基于ColorUI库构建页面组件，包含自动登录、体温填报、请销假、临时出入校、用户信息展示功能.
+\end{itemize}
+
+\datedsubsection{\textbf{河北工业大学学生工作管理系统}}{2019.12-2021.6}
+\begin{itemize}
+  \item 基于Vue2+Element UI搭建前端页面，包含学生基本信息管理、小程序端信息统计、特殊学生管理、辅导员工作记录等功能， 可进行相关信息的检索、录入和导出.
+\end{itemize}
+
+\datedsubsection{\textbf{智能化居家养老服务平台}}{2019.7-2019.9}
+\begin{itemize}
+  \item 开发微信小程序“RB社区”，设计实现底部自定义导航栏、顶部tab标签等功能样式，包含发起志愿请求、志愿信息录入、志愿时长统计、动态数据展示等功能.
+\end{itemize}
+
+\datedsubsection{\textbf{河北工业大学第二课堂育人系统}}{2019.6-2021.6}
+\begin{itemize}
+  \item 基于jQuery+Bootstrap+ECharts搭建前端页面，包含第二课堂活动申请、审核、发布，以及活动成绩的录入、统计、导出等功能.
+\end{itemize}
+
+\vspace{0.2em}
+
+\section{竞赛获奖}
+\begin{itemize}[parsep=0.8ex]
+  \item 第十届全国大学生电子商务“创新、创意及创业”挑战赛\textbf{省级特等奖}，2020年5月
+  \item 美国大学生数学建模竞赛\textbf{H奖}，2020年3月
+  \item 华北五省（市、自治区）及港澳台大学生计算机应用大赛\textbf{一等奖}，2019年11月
+  \item 第十三届iCAN国际创新创业大赛\textbf{省级三等奖}，2019年10月
+\end{itemize}
+
+
+\vspace{0.2em}
+
+\section{技术能力}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.8ex]
+  \item \textbf{编程语言}: HTML/CSS, JavaScript, Python, Node.js, C++
+  \item \textbf{框架/工具}: jQuery, Vue, Bootstrap, NaiveUI, ElementUI, ColorUI, Git, webpack, chrome extension
+  \item \textbf{博客}：\textit{https://tomorrow-rain.github.io/}，\textit{https://blog.csdn.net/Yuan\_mingyu}
+\end{itemize}
+
+% \end{itemize}
+
+% \section{\faHeartO\ 项目/作品摘要}
+% \section{项目/作品摘要}
+% \datedline{\textit{An Integrated Version of Security Monitor Vis System}, https://hijiangtao.github.io/ss-vis-component/ }{}
+% \datedline{\textit{Dark-Tech}, https://github.com/hijiangtao/dark-tech/ }{}
+% \datedline{\textit{融合社交网络数据挖掘的电视节目可视化分析系统}, https://hijiangtao.github.io/variety-show-hot-spot-vis/}{}
+% \datedline{\textit{LeetCodeOJ Solutions}, https://github.com/hijiangtao/LeetCodeOJ}{}
+% \datedline{\textit{Info-Vis}, https://github.com/ISCAS-VIS/infovis-ucas}{}
+
+
+% \section{\faInfo\ 社会实践/其他}
+% \section{社区参与/实践其他}
+% % increase linespacing [parsep=0.5ex]
+% \begin{itemize}[parsep=0.2ex]
+%   \item 乐于参与开源社区讨论,\textbf{参与翻译 Vue.js, webpack, WebAssembly, Babel 文档，印记中文成员}
+%   \item 中国科学院大学2016秋季学期可视化与可视分析课程助教，\textit{http://vis.ios.ac.cn/infovis-ucas/}
+%   \item 未来论坛学生会成员、北理社联新闻信息中心主任、北理工软件学院学生会宣传部副部长(2012-2016)
+%   \item 2013-2015 北京市共青团“温暖衣冬”志愿者,第九届园博会志愿者,2014 FLL机器人世锦赛志愿者
+% \end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{spacing}
+\end{document}
