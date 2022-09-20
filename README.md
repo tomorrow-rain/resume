@@ -6,3 +6,18 @@
 项目下载到本地然后上传到https://www.overleaf.com/ ，直接修改
 
 或者下载配置tex studio编辑修改
+
+
+
+都是没有照片的简历，resume2中有个带照片的模板，感觉不太好看，就没用。
+
+
+
+参考：
+
+https://github.com/hijiangtao/resume
+
+https://github.com/billryan/resume
+
+
+
